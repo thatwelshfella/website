@@ -21,7 +21,7 @@ const Header = ({ icon, menu }) => {
       <div className={showMenu ? 'mobile-menu show' : 'mobile-menu hidden'}>
         <div className="menu-items-container">
           {menu.map(items => (
-            <a href={items.link} onClick={toggleMobileMenu}>
+            <a href={items.link} onClick={toggleMobileMenu} key={items.link}>
               {items.value.toUpperCase()}
               {`  `}
               <FontAwesomeIcon icon="chevron-right" />
