@@ -19,7 +19,10 @@ const Header = ({ icon, menu }) => {
         <FontAwesomeIcon icon="bars" size="lg" onClick={toggleMobileMenu} />
       </div>
       <div className={showMenu ? 'mobile-menu show' : 'mobile-menu hidden'}>
-        <div className="menu-items-container">
+        <div
+          className={
+            showMenu ? 'menu-items-container' : 'menu-items-container hidden'
+          }>
           {menu.map(items => (
             <a href={items.link} onClick={toggleMobileMenu} key={items.link}>
               {items.value.toUpperCase()}

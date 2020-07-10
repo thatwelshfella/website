@@ -15,7 +15,7 @@ describe('<Header />', () => {
   describe('@renders', () => {
     it('should render with the correct number of links', () => {
       expect(
-        cmp.find("[className='menu-items-container']").children().length
+        cmp.find("[className='menu-items-container hidden']").children().length
       ).toEqual(menu.length);
     });
   });

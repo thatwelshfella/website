@@ -32,18 +32,22 @@
     width: 100%;
     display: flex;
     justify-content: center;
+  }
 
-    .menu-items-container {
-      display: flex;
-      flex-direction: column;
+  .menu-items-container {
+    display: flex;
+    flex-direction: column;
 
-      text-align: left;
+    text-align: left;
 
-      a {
-        padding: 10px;
-        color: black;
-        text-decoration: none;
-      }
+    &.hidden {
+      display: none;
+    }
+
+    a {
+      padding: 10px;
+      color: black;
+      text-decoration: none;
     }
   }
 
