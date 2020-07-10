@@ -11,6 +11,7 @@ const Header = ({ icon, menu }) => {
   const toggleMobileMenu = () => {
     setShowMenu(!showMenu);
   };
+
   return (
     <>
       <div className="header-component">
@@ -18,7 +19,15 @@ const Header = ({ icon, menu }) => {
         <FontAwesomeIcon icon="bars" size="lg" onClick={toggleMobileMenu} />
       </div>
       <div className={showMenu ? 'mobile-menu show' : 'mobile-menu hidden'}>
-        {menu}
+        <div className="menu-items-container">
+          {menu.map(items => (
+            <a href={items.link} onClick={toggleMobileMenu}>
+              {items.value.toUpperCase()}
+              {`  `}
+              <FontAwesomeIcon icon="chevron-right" />
+            </a>
+          ))}
+        </div>
       </div>
     </>
   );

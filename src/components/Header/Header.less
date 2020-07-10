@@ -10,6 +10,10 @@
 
   position: relative;
   z-index: 100;
+
+  svg {
+    cursor: pointer;
+  }
 }
 
 .mobile-menu {
@@ -26,6 +30,21 @@
 
   &.show {
     width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .menu-items-container {
+      display: flex;
+      flex-direction: column;
+
+      text-align: left;
+
+      a {
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+      }
+    }
   }
 
   &.hidden {
