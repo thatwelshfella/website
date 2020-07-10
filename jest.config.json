@@ -15,7 +15,8 @@
     "!**/tests/**",
     "!**/assets/**",
     "!**/scripts/**",
-    "!src/redux/**"
+    "!src/redux/**",
+    "!src/fontAwesomeLibrary.js"
   ],
   "coveragePathIgnorePatterns": ["/node_modules", "./initialState"],
   "coverageThreshold": {
