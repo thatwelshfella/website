@@ -7,6 +7,6 @@ describe('@render', () => {
     title: 'webpack boiler',
   };
   it('renders without crashing', () => {
-    expect(shallow(<AppView {...requiredProps} />)).toMatchSnapshot();
+    expect(shallow(<AppView {...requiredProps} />).length).toEqual(1);
   });
 });
