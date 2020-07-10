@@ -3,25 +3,32 @@
 
   border-bottom: 1px lightgrey solid;
   box-shadow: 0px 1px 15px;
+  background-color: #f5f5f5;
 
   display: flex;
   justify-content: space-between;
+
+  position: relative;
+  z-index: 100;
 }
 
 .mobile-menu {
-  background-color: whitesmoke;
-
   height: 100%;
-  width: 100%;
+
+  position: fixed;
+  z-index: 50;
+
+  background-color: #f5f5f5;
+
+  overflow: hidden;
+
+  transition: 0.5s;
 
   &.show {
-    display: block;
-    position: absolute;
-
-    padding: 20px 0;
+    width: 100%;
   }
 
   &.hidden {
-    display: none;
+    width: 0%;
   }
 }
