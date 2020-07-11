@@ -8,7 +8,11 @@ import reducer from './redux/reducer';
 
 import './Index.less';
 
-const store = createStore(reducer);
+const store = createStore(
+  reducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ /
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
+);
 
 ReactDOM.render(
   <Provider store={store}>

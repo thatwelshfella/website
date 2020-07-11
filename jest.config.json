@@ -14,9 +14,10 @@
     "!**/src/Index.(js|jsx)",
     "!**/tests/**",
     "!**/assets/**",
-    "!**/scripts/**"
+    "!**/scripts/**",
+    "!src/redux/**"
   ],
-  "coveragePathIgnorePatterns": ["/node_modules", "./intialState"],
+  "coveragePathIgnorePatterns": ["/node_modules", "./initialState"],
   "coverageThreshold": {
     "global": {
       "branches": 100,

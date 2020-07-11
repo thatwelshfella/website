@@ -1,3 +1,3 @@
-const InitialState = { title: 'webpack boilerplate' };
+const InitialState = { title: 'website created' };
 
 export default InitialState;
