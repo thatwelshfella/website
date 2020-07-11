@@ -12,11 +12,9 @@ App.propTypes = {
   title: PropTypes.string.isRequired,
 };
 
-const mapStateToProps = state => {
-  return {
-    title: state.title,
-  };
-};
+const mapStateToProps = state => ({
+  title: state.title,
+});
 
 export { App as AppView };
 
