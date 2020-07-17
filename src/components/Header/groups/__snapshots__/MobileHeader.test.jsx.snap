@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MobileHeader /> @renders should render with mobile header  1`] = `
+<Fragment>
+  <div
+    className="header-component"
+  >
+    LD
+    <FaBars
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="mobile-menu hidden"
+  >
+    <div
+      className="menu-items container hidden"
+    >
+      <a
+        href="#home"
+        key="#home"
+        onClick={[Function]}
+      >
+        HOME
+          
+        <FaChevronRight />
+      </a>
+      <a
+        href="#aboutMe"
+        key="#aboutMe"
+        onClick={[Function]}
+      >
+        ABOUT ME
+          
+        <FaChevronRight />
+      </a>
+      <a
+        href="#timeline"
+        key="#timeline"
+        onClick={[Function]}
+      >
+        EMPLOYMENT TIMELINE
+          
+        <FaChevronRight />
+      </a>
+      <a
+        href="#github"
+        key="#github"
+        onClick={[Function]}
+      >
+        GITHUB PROJECTS
+          
+        <FaChevronRight />
+      </a>
+    </div>
+  </div>
+</Fragment>
+`;

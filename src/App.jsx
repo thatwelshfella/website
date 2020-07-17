@@ -1,21 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
+
+import Header from './components/Header/Header';
 
 import './App.less';
 
-const App = ({ title }) => {
-  return <div className="app">{title}</div>;
+const App = () => {
+  const links = [
+    { link: '#home', value: 'Home' },
+    { link: '#aboutMe', value: 'About me' },
+    { link: '#timeline', value: 'Employment Timeline' },
+    { link: '#github', value: 'Github Projects' },
+  ];
+
+  return (
+    <div className="app">
+      <Header icon="LD" menu={links} />
+    </div>
+  );
 };
 
-App.propTypes = {
-  title: PropTypes.string.isRequired,
-};
-
-const mapStateToProps = state => ({
-  title: state.title,
-});
+App.propTypes = {};
 
 export { App as AppView };
 
-export default connect(mapStateToProps, null)(App);
+export default App;

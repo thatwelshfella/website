@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> @renders should render with mobile and desktop headers  1`] = `
+<Fragment>
+  <div
+    className="mobile"
+  >
+    <MobileHeader
+      icon="LD"
+      menu={
+        Array [
+          Object {
+            "link": "#home",
+            "value": "Home",
+          },
+          Object {
+            "link": "#aboutMe",
+            "value": "About me",
+          },
+          Object {
+            "link": "#timeline",
+            "value": "Employment Timeline",
+          },
+          Object {
+            "link": "#github",
+            "value": "Github Projects",
+          },
+        ]
+      }
+    />
+  </div>
+  <div
+    className="desktop"
+  >
+    <DesktopHeader
+      icon="LD"
+      menu={
+        Array [
+          Object {
+            "link": "#home",
+            "value": "Home",
+          },
+          Object {
+            "link": "#aboutMe",
+            "value": "About me",
+          },
+          Object {
+            "link": "#timeline",
+            "value": "Employment Timeline",
+          },
+          Object {
+            "link": "#github",
+            "value": "Github Projects",
+          },
+        ]
+      }
+    />
+  </div>
+</Fragment>
+`;

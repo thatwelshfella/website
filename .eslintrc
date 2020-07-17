@@ -21,9 +21,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "rules": {
     "import/order": 0,
     "import/prefer-default-export": 0,
@@ -44,5 +42,6 @@
         "config": "./config/webpack.config.js"
       }
     }
-  }
+  },
+  "react/forbid-prop-types": 0
 }
