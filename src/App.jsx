@@ -24,8 +24,6 @@ const App = ({ title }) => {
 
 App.propTypes = {};
 
-const mapStateToProps = state => ({});
-
 export { App as AppView };
 
-export default connect(mapStateToProps, null)(App);
+export default App;
