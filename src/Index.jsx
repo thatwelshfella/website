@@ -6,7 +6,6 @@ import { createStore } from 'redux';
 import reducer from './redux/reducer';
 import { Provider } from 'react-redux';
 
-import './fontAwesomeLibrary';
 import './Index.less';
 
 const store = createStore(

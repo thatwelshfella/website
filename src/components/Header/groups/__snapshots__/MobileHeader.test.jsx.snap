@@ -6,25 +6,8 @@ exports[`<MobileHeader /> @renders should render with mobile header  1`] = `
     className="header-component"
   >
     LD
-    <FontAwesomeIcon
-      border={false}
-      className=""
-      fixedWidth={false}
-      flip={null}
-      icon="bars"
-      inverse={false}
-      listItem={false}
-      mask={null}
+    <FaBars
       onClick={[Function]}
-      pull={null}
-      pulse={false}
-      rotation={null}
-      size="lg"
-      spin={false}
-      swapOpacity={false}
-      symbol={false}
-      title=""
-      transform={null}
     />
   </div>
   <div
@@ -40,25 +23,7 @@ exports[`<MobileHeader /> @renders should render with mobile header  1`] = `
       >
         HOME
           
-        <FontAwesomeIcon
-          border={false}
-          className=""
-          fixedWidth={false}
-          flip={null}
-          icon="chevron-right"
-          inverse={false}
-          listItem={false}
-          mask={null}
-          pull={null}
-          pulse={false}
-          rotation={null}
-          size={null}
-          spin={false}
-          swapOpacity={false}
-          symbol={false}
-          title=""
-          transform={null}
-        />
+        <FaChevronRight />
       </a>
       <a
         href="#aboutMe"
@@ -67,25 +32,7 @@ exports[`<MobileHeader /> @renders should render with mobile header  1`] = `
       >
         ABOUT ME
           
-        <FontAwesomeIcon
-          border={false}
-          className=""
-          fixedWidth={false}
-          flip={null}
-          icon="chevron-right"
-          inverse={false}
-          listItem={false}
-          mask={null}
-          pull={null}
-          pulse={false}
-          rotation={null}
-          size={null}
-          spin={false}
-          swapOpacity={false}
-          symbol={false}
-          title=""
-          transform={null}
-        />
+        <FaChevronRight />
       </a>
       <a
         href="#timeline"
@@ -94,25 +41,7 @@ exports[`<MobileHeader /> @renders should render with mobile header  1`] = `
       >
         EMPLOYMENT TIMELINE
           
-        <FontAwesomeIcon
-          border={false}
-          className=""
-          fixedWidth={false}
-          flip={null}
-          icon="chevron-right"
-          inverse={false}
-          listItem={false}
-          mask={null}
-          pull={null}
-          pulse={false}
-          rotation={null}
-          size={null}
-          spin={false}
-          swapOpacity={false}
-          symbol={false}
-          title=""
-          transform={null}
-        />
+        <FaChevronRight />
       </a>
       <a
         href="#github"
@@ -121,25 +50,7 @@ exports[`<MobileHeader /> @renders should render with mobile header  1`] = `
       >
         GITHUB PROJECTS
           
-        <FontAwesomeIcon
-          border={false}
-          className=""
-          fixedWidth={false}
-          flip={null}
-          icon="chevron-right"
-          inverse={false}
-          listItem={false}
-          mask={null}
-          pull={null}
-          pulse={false}
-          rotation={null}
-          size={null}
-          spin={false}
-          swapOpacity={false}
-          symbol={false}
-          title=""
-          transform={null}
-        />
+        <FaChevronRight />
       </a>
     </div>
   </div>

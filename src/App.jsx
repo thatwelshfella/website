@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
 
 import Header from './components/Header/Header';
 
 import './App.less';
 
-const App = ({ title }) => {
+const App = () => {
   const links = [
     { link: '#home', value: 'Home' },
     { link: '#aboutMe', value: 'About me' },
@@ -17,7 +16,6 @@ const App = ({ title }) => {
   return (
     <div className="app">
       <Header icon="LD" menu={links} />
-      {title}
     </div>
   );
 };

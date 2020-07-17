@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaBars, FaChevronRight } from 'react-icons/fa';
 
 import '../Header.less';
 
@@ -16,7 +16,7 @@ const MobileHeader = ({ icon, menu }) => {
     <>
       <div className="header-component">
         {icon}
-        <FontAwesomeIcon icon="bars" size="lg" onClick={toggleMobileMenu} />
+        <FaBars onClick={toggleMobileMenu} />
       </div>
       <div className={showMenu ? 'mobile-menu show' : 'mobile-menu hidden'}>
         <div
@@ -27,7 +27,7 @@ const MobileHeader = ({ icon, menu }) => {
             <a href={items.link} onClick={toggleMobileMenu} key={items.link}>
               {items.value.toUpperCase()}
               {`  `}
-              <FontAwesomeIcon icon="chevron-right" />
+              <FaChevronRight />
             </a>
           ))}
         </div>

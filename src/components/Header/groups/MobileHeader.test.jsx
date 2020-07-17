@@ -20,7 +20,7 @@ describe('<MobileHeader />', () => {
 
   describe('@actions', () => {
     it('should toggle open the mobile menu', () => {
-      const menu = cmp.find('FontAwesomeIcon').first();
+      const menu = cmp.find('FaBars').first();
 
       menu.simulate('click');
 
