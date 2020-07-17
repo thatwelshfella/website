@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Header from './Header';
+import DesktopHeader from './DesktopHeader';
 
-describe('<Header />', () => {
+describe('<DesktopHeader />', () => {
   const menu = [
     { link: '#home', value: 'Home' },
     { link: '#aboutMe', value: 'About me' },
@@ -10,10 +10,10 @@ describe('<Header />', () => {
     { link: '#github', value: 'Github Projects' },
   ];
 
-  const cmp = shallow(<Header icon="LD" menu={menu} />);
+  const cmp = shallow(<DesktopHeader icon="LD" menu={menu} />);
 
   describe('@renders', () => {
-    it.only('should render with mobile and desktop headers ', () => {
+    it.only('should render with desktop header ', () => {
       expect(cmp).toMatchSnapshot();
     });
   });

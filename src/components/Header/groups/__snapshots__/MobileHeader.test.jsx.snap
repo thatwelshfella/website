@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MobileHeader /> @renders should render with mobile header  1`] = `
+<Fragment>
+  <div
+    className="header-component"
+  >
+    LD
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      fixedWidth={false}
+      flip={null}
+      icon="bars"
+      inverse={false}
+      listItem={false}
+      mask={null}
+      onClick={[Function]}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size="lg"
+      spin={false}
+      swapOpacity={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+  </div>
+  <div
+    className="mobile-menu hidden"
+  >
+    <div
+      className="menu-items container hidden"
+    >
+      <a
+        href="#home"
+        key="#home"
+        onClick={[Function]}
+      >
+        HOME
+          
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon="chevron-right"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          swapOpacity={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </a>
+      <a
+        href="#aboutMe"
+        key="#aboutMe"
+        onClick={[Function]}
+      >
+        ABOUT ME
+          
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon="chevron-right"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          swapOpacity={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </a>
+      <a
+        href="#timeline"
+        key="#timeline"
+        onClick={[Function]}
+      >
+        EMPLOYMENT TIMELINE
+          
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon="chevron-right"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          swapOpacity={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </a>
+      <a
+        href="#github"
+        key="#github"
+        onClick={[Function]}
+      >
+        GITHUB PROJECTS
+          
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon="chevron-right"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          swapOpacity={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </a>
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,36 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import MobileHeader from './groups/MobileHeader';
+import DesktopHeader from './groups/DesktopHeader';
 
 import './Header.less';
 
 const Header = ({ icon, menu }) => {
-  const [showMenu, setShowMenu] = useState(false);
-
-  const toggleMobileMenu = () => {
-    setShowMenu(!showMenu);
-  };
-
   return (
     <>
-      <div className="header-component">
-        {icon}
-        <FontAwesomeIcon icon="bars" size="lg" onClick={toggleMobileMenu} />
+      <div className="mobile">
+        <MobileHeader icon={icon} menu={menu} />
       </div>
-      <div className={showMenu ? 'mobile-menu show' : 'mobile-menu hidden'}>
-        <div
-          className={
-            showMenu ? 'menu-items-container' : 'menu-items-container hidden'
-          }>
-          {menu.map(items => (
-            <a href={items.link} onClick={toggleMobileMenu} key={items.link}>
-              {items.value.toUpperCase()}
-              {`  `}
-              <FontAwesomeIcon icon="chevron-right" />
-            </a>
-          ))}
-        </div>
+
+      <div className="desktop">
+        <DesktopHeader icon={icon} menu={menu} />
       </div>
     </>
   );

@@ -1,3 +1,19 @@
+.mobile {
+  display: block;
+
+  @media only screen and (min-width: 800px) {
+    display: none;
+  }
+}
+
+.desktop {
+  display: block;
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
 .header-component {
   padding: 15px;
 
@@ -34,7 +50,19 @@
     justify-content: center;
   }
 
-  .menu-items-container {
+  &.hidden {
+    width: 0%;
+  }
+}
+
+.menu-items {
+  a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+  }
+
+  &.container {
     display: flex;
     flex-direction: column;
 
@@ -43,15 +71,5 @@
     &.hidden {
       display: none;
     }
-
-    a {
-      padding: 10px;
-      color: black;
-      text-decoration: none;
-    }
-  }
-
-  &.hidden {
-    width: 0%;
   }
 }

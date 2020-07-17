@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DesktopHeader /> @renders should render with desktop header  1`] = `
+<div
+  className="header-component "
+>
+  LD
+  <div
+    className="menu-items"
+  >
+    <a
+      href="#home"
+      key="#home"
+    >
+      HOME
+    </a>
+    <a
+      href="#aboutMe"
+      key="#aboutMe"
+    >
+      ABOUT ME
+    </a>
+    <a
+      href="#timeline"
+      key="#timeline"
+    >
+      EMPLOYMENT TIMELINE
+    </a>
+    <a
+      href="#github"
+      key="#github"
+    >
+      GITHUB PROJECTS
+    </a>
+  </div>
+</div>
+`;
